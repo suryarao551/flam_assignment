@@ -39,11 +39,11 @@ $$E(\theta,M,X)=\sum_{i=1}^{N}\ \min_{j}\Big(\big|x_i^{pred}-x_j^{actual}\big|+\
 
 | method | total L1 error | note |
 |---|---|---|
-| hand guess (Desmos) | 106.53 | starting point |
-| grid search (coarse, whole box) | 25.819 | finds the right valley |
-| hill climbing | 25.812 | refines the grid winner |
-| simulated annealing | 27.67 | started from box centre — finds the same valley on its own |
-| Nelder–Mead (SciPy) | **25.812** |
+| hand guess (Desmos) | 160.00 | starting point |
+| grid search (coarse, whole box) | 46.34 | finds the right valley |
+| hill climbing | 40.08963 | refines the grid winner |
+| simulated annealing | 40.372 | started from box centre — finds the same valley on its own |
+| Nelder–Mead (SciPy) | **40.08956** |
 
 All five methods independently agree on θ = 30°, M = 0.03, X = 55 — strong evidence it is the global minimum. The remaining error shows no trend along $t$:
 
