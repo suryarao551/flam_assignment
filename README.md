@@ -20,7 +20,7 @@ $0° < \theta < 50°$, $\ -0.05 < M < 0.05$, $\ 0 < X < 100$.
 Submission string (Desmos / LaTeX format):
 
 ```
-\left(t*\cos(0.5236)-e^{0.03\left|t\right|}\cdot\sin(0.3t)\sin(0.5236)+55.0004,42+t*\sin(0.5236)+e^{0.03\left|t\right|}\cdot\sin(0.3t)\cos(0.5236)\right)
+\left(t*\cos(0.52359)-e^{0.03\left|t\right|}\cdot\sin(0.3t)\sin(0.52359)+54.998,42+t*\sin(0.52359)+e^{0.03\left|t\right|}\cdot\sin(0.3t)\cos(0.52359)\right)
 ```
 
 **Error (the assessment metric):** total L1 distance between 1500 uniformly sampled points of the fitted curve and their nearest data points = **40.08** (mean **0.0267** per sampled point). This residual is pure sampling gap.
